@@ -11,8 +11,8 @@ I'm 24 years old. I've been working in economics and finance for 5 years, but I 
 * Git/GitHub
 ## Code examples
 ## Education
-+ Belarus State Economic University
-- Faculty of Accounting and Economics
+* Belarus State Economic University
+    - Faculty of Accounting and Economics
 ## Languages
 * Russian - native speaker
 * Belarusian - native speaker
