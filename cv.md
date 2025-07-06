@@ -10,6 +10,14 @@ I'm 24 years old. I've been working in economics and finance for 5 years, but I 
 * CSS 
 * Git/GitHub
 ## Code examples
+'''
+for (let i = 1; i < 21; i++) {
+	console.log(i)
+    if(i%2 == 1) {
+        continue
+    }
+    }
+    '''
 ## Education
 * Belarus State Economic University
     - Faculty of Accounting and Economics
