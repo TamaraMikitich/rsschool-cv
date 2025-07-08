@@ -29,6 +29,9 @@ for (let i = 1; i < 21; i++) {
 * Belarus State Economic University
     - Faculty of Accounting and Economics
 
+## Courses
+***RS School*** - in process
+
 ## Languages
 * ***Russian*** - native speaker
 * ***Belarusian*** - native speaker
