@@ -1,10 +1,12 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #842401 ;
     min-height: 100vh;
     margin: 0; padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #e9e4d6 ;
 }
 .CONTAINER {
   max-width: 1440px;
@@ -29,15 +31,16 @@ body {
   padding: 0 20px;
   line-height: 50px;
   text-decoration: none;
-  color:black;
+  color:#842401 ;
   transition: color 0.5s;
   font-size: 18px;
   font-weight: 600;
 }
 .nav-link:hover {
-  color: #842401;
+  color: black;
 }
 .AVATAR {
+  border-radius: 50%;
   width: 50%;
   height: auto;
 }
@@ -50,11 +53,59 @@ body {
   height: auto;
 }
 pre {
-    overflow-x: auto;
-    white-space: pre-wrap;
-    word-wrap: break-word; 
-    margin-left: -170px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word; 
+  margin-left: -170px;
 }
+#skills div, #projects div{
+  color: #e9e4d6;
+  border-radius: 20px;
+  background-color: #842401;
+  padding: 10px;
+  margin: 20px;
+}
+#code div, #contacts div{
+  /* color: #e9e4d6; */
+  border-radius: 20px;
+  background-color: #e6c093 ;
+  padding: 10px;
+  margin: 20px;
+}
+#projects a{
+  text-decoration: none;
+  color:#e9e4d6 ;
+  transition: color 0.5s;
+}
+#projects a:hover{
+  color: #e6c093;
+}
+#contacts a{
+  text-decoration: none;
+  color:#842401 ;
+  transition: color 0.5s;
+}
+#contacts a:hover{
+  color: black;
+}
+footer {
+  display: flex;
+  /* justify-content: flex-end;
+  align-items: center; */
+  flex-wrap: wrap;
+}
+/* #profile {
+  font-family: 'Yeseva One', serif;
+  font-weight: 400;
+  font-style: normal;
+}  */
+ /* #contacts, #code, header, footer{
+  background-color: #e9e4d6;
+ } */
+ /* #skills, #contacts, #courses, #projects, #languages {
+  background-color: #e6c093    ;
+ }  */
+
 @media (max-width: 768px) {
   .section {
     width: 100%;
