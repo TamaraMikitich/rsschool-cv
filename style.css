@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     color: #842401 ;
     min-height: 100vh;
     margin: 0; padding: 0;
@@ -66,7 +66,6 @@ pre {
   margin: 20px;
 }
 #code div, #contacts div{
-  /* color: #e9e4d6; */
   border-radius: 20px;
   background-color: #e6c093 ;
   padding: 10px;
@@ -90,36 +89,16 @@ pre {
 }
 footer {
   display: flex;
-  /* justify-content: flex-end;
-  align-items: center; */
-  flex-wrap: wrap;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 800;
 }
-/* #profile {
-  font-family: 'Yeseva One', serif;
-  font-weight: 400;
-  font-style: normal;
-}  */
- /* #contacts, #code, header, footer{
-  background-color: #e9e4d6;
- } */
- /* #skills, #contacts, #courses, #projects, #languages {
-  background-color: #e6c093    ;
- }  */
-
-@media (max-width: 768px) {
-  .section {
-    width: 100%;
-  }
+footer a{
+  padding-left: 30px;
+  padding-right: 30px;
 }
- @media all and (max-width: 880px) {
- .AVATAR {
-  width: 80% !important;
-  height: auto !important;
+#profile
+{
+  font-size: 25px;
+  font-weight: 600
 }
-}
- /* @media all and (max-width: 770px) {
- .AVATAR {
-  width: 80% !important;
-  height: auto !important;
-}
-} */
