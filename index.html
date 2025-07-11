@@ -3,8 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/img/ich.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header class = "HEADER">
+        <div class="CONTAINER">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class = "MAIN">
+        <div class="CONTAINER main-container">
+            <section class="section" id="profile">
+                <h1 class="section-title">Tamara Mikitich</h1>
+                <img class="AVATAR" src="/rsschool-cv/assets/img/ich.png" alt="avatar" title="avatar">
+            </section>
+            <section class="section" id="contacts">
+                <div>
+                   <h2 class="section-title">My Contact Info</h2>
+                   <ul>
+                       <li>Phone: +375 29 111&ndash;22&ndash;33</li>
+                       <li>E&ndash;mail: mikitich.tamara&#64;gmail.com</li>
+                       <li>Discord: maria023428</li>
+                       <li>GitHub: <a href="https://github.com/TamaraMikitich" target="_blank" title="GitHub">TamaraMikitich</a></li>
+                   </ul>
+                </div>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">About Me</h2>
+                <p>I'm 24 years old. I've been working in economics and finance for 5 years, but I realized that it wasn't my thing. That's why I want to change my profession. I have a little experience in HTML&#8260;CSS coding. This little experience has shown me the path I want to follow further. My goal is to actively deepen my knowledge and become a qualified frontend developer.</p>
+            </section>
+            <section class="section" id="skills">
+                <div>
+                    <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Git&#8260;GitHub</li>
+                </ul>
+                </div>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <p><span>RS School</span> &mdash; in process</p>
+            </section>
+            <section class="section" id="code">
+                <div>
+                    <h2 class="section-title">Code examples</h2>
+                <pre>
+                    <code>
+                        for &#40;let i = 1; i &lt; 21; i++&#41; {
+	                        console.log&#40;i&#41;
+                            if&#40;i%2 == 1&#41; {
+                            continue
+                            }
+                        }
+                    </code>
+                </pre>
+                </div>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p><span>Belarus State Economic University</span> <br> Faculty of Accounting and Economics</p>
+            </section>
+            <section class="section" id="projects">
+                <div>
+                    <h2 class="section-title">Projects</h2>
+                    <a href="https://TamaraMikitich.github.io/rsschool-cv/cv" target="_blank" title="rsschool-cv">CV</a>
+                </div>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul>
+                    <li><span>Russian</span> &mdash; native speaker</li>
+                    <li><span>Belarusian</span> &mdash; native speaker</li>
+                    <li><span>English</span> &mdash; B1 &#40;B2 in process&#41;</li>
+                    <li><span>German</span> &mdash; A2 &#40;B1 in process&#41;</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class = "FOOTER">
+        <div class="CONTAINER">
+            <p> <a href="https://rs.school/courses/javascript-ru" target="_blank" title="rs-school"> <img class="RSLOGO" src="/rsschool-cv/assets/img/rs-school-logo.svg" alt="rs-school"></a>
+            2025
+            <a href="https://github.com/TamaraMikitich" target="_blank" title="github"> <img class="GITLOGO" src="/rsschool-cv/assets/img/github.svg" alt="github"></a>
+           </p>
+        </div>
+    </footer>
 </body>
 </html>

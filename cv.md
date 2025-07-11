@@ -1,5 +1,5 @@
 # Tamara Mikitich
-![javascript](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuHnJDLOcdm_0b6N6kNj-1OvO9KhKYgqIy0w&s "java script")
+![myfoto](/assets/img/ich.png "myfoto")
 
 ## My Contact Info
 * Phone: +375 29 111-22-33
@@ -28,6 +28,9 @@ for (let i = 1; i < 21; i++) {
 ## Education
 * Belarus State Economic University
     - Faculty of Accounting and Economics
+
+## Courses
+***RS School*** - in process
 
 ## Languages
 * ***Russian*** - native speaker
