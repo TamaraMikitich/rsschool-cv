@@ -1,5 +1,5 @@
 # Tamara Mikitich
-![myfoto](/assets/img/ich.png "myfoto")
+![myfoto](\assets\img\ich.png "myfoto")
 
 ## My Contact Info
 * Phone: +375 29 111-22-33
